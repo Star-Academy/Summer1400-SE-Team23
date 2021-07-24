@@ -19,4 +19,7 @@ public class Initiallizer {
         }
     }
 
+    public HashMap<String, ArrayList<String>> getDictionary() {
+        return dictionary;
+    }
 }
