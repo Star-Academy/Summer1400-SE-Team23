@@ -10,7 +10,12 @@ public class Initiallizer {
             String s1 = documentsContent.get(s);
             String[] s2 = s1.split(" ");
             for(String s3 : s2) {
-                ArrayList<String> documentsSet = dictionary.get(s3);
+                ArrayList<String> documentsSet;
+                if(dictionary.containsKey(s3))
+                    documentsSet = dictionary.get(s3);
+                else
+                    documentsSet = new ArrayList<>();
+
                 if(documentsSet.lastIndexOf(s) == -1){
                     documentsSet.add(s);
                 }
