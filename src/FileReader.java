@@ -6,7 +6,8 @@ public class FileReader {
     private File documentsFolder = new File("resources/documents");
     private HashMap <String, String> documentsContent = new HashMap<>();
 
-    public HashMap<String, String> getDocumentsContent() {
+    public HashMap<String, String> getDocumentsContent() throws Exception {
+        readContent();
         return documentsContent;
     }
 
