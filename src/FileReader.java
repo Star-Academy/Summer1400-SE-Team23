@@ -6,6 +6,10 @@ public class FileReader {
     private File documentsFolder = new File("resources/documents");
     private HashMap <String, String> documentsContent = new HashMap<>();
 
+    public HashMap<String, String> getDocumentsContent() {
+        return documentsContent;
+    }
+
     private void readContent() throws Exception {
 
         //this loop is for reading and saving documents' content
@@ -23,6 +27,7 @@ public class FileReader {
             //mapping each document's content to its name
             documentsContent.put(fileName, content.toString());
         }
+
 
 
 
