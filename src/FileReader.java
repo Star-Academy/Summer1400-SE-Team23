@@ -26,7 +26,7 @@ public class FileReader {
             }
 
             //mapping each document's content to its name
-            documentsContent.put(fileName, content.toString());
+            documentsContent.put(fileName, content.toString().toLowerCase());
         }
 
 

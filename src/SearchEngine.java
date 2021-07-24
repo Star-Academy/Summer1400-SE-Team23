@@ -18,10 +18,10 @@ public class SearchEngine {
     public void search(){
         String query;
 
-        while((query = scanner.nextLine()) != "\n"){
-            for (String document : dictionary.get(query))
-                System.out.println(document + " ");
+        while(!(query = scanner.nextLine()).equals("")){
+            for (String document : dictionary.get(query.toLowerCase()))
+                System.out.print(document + " ");
+            System.out.println("");
         }
-        System.out.println("\n");
     }
 }
