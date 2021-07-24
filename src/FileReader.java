@@ -3,7 +3,7 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 public class FileReader {
-    private File documentsFolder = new File("resources/documents");
+    private File documentsFolder = new File("resources/EnglishData");
     private HashMap <String, String> documentsContent = new HashMap<>();
 
     public HashMap<String, String> getDocumentsContent() throws Exception {
