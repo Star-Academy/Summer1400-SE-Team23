@@ -27,28 +27,33 @@ public class SearchEngine {
         while(!(query = scanner.nextLine()).equals("")){
             processQuery(query.toLowerCase());
             for(String word : orQueries){
-                for(String document : dictionary.get(word.substring(1))){
-                    result.add(document);
-                }
+                if(!dictionary.containsKey(word.substring(1)))
+                    continue;
+                result.addAll(dictionary.get(word.substring(1)));
             }
 
             if(result.isEmpty()){
-                for(String document : dictionary.get(andQueries.get(0))){
-                    result.add(document);
+                for(String word : andQueries){
+                    if(dictionary.containsKey(word)){
+                        result.addAll(dictionary.get(word));
+                        break;
+                    }
                 }
             }
 
             for(String word : andQueries){
-                for(String document : result){
-                    if(!dictionary.get(word).contains(document))
-                        result.remove(document);
+                if(!dictionary.containsKey(word)) {
+                    result.clear();
+                    break;
                 }
+                result.removeIf(document -> !dictionary.get(word).contains(document));
             }
 
             for(String word : excludeQueries){
+                if(!dictionary.containsKey(word.substring(1)))
+                    continue;
                 for(String document : dictionary.get(word.substring(1))){
-                    if(result.contains(document))
-                        result.remove(document);
+                    result.remove(document);
                 }
             }
 
