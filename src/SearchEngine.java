@@ -27,7 +27,7 @@ public class SearchEngine {
         while(!(query = scanner.nextLine()).equals("")){
             processQuery(query.toLowerCase());
             for(String word : orQueries){
-                for(String document : dictionary.get(word)){
+                for(String document : dictionary.get(word.substring(1))){
                     result.add(document);
                 }
             }
@@ -46,7 +46,7 @@ public class SearchEngine {
             }
 
             for(String word : excludeQueries){
-                for(String document : dictionary.get(word)){
+                for(String document : dictionary.get(word.substring(1))){
                     if(result.contains(document))
                         result.remove(document);
                 }
