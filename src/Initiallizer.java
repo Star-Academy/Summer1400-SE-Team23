@@ -6,20 +6,19 @@ public class Initiallizer {
 
     public void initialize(HashMap <String, String> documentsContent){
         dictionary = new HashMap<>();
-        for(String s : documentsContent.keySet()){
-            String s1 = documentsContent.get(s);
-            String[] s2 = s1.split(" ");
-            for(String s3 : s2) {
+        for(String document : documentsContent.keySet()){
+            String[] words = documentsContent.get(document).split(" "); // an array of words of the document
+            for(String word : words) {
                 ArrayList<String> documentsSet;
-                if(dictionary.containsKey(s3))
-                    documentsSet = dictionary.get(s3);
+                if(dictionary.containsKey(word))  //if the word has been seen before
+                    documentsSet = dictionary.get(word);
                 else
                     documentsSet = new ArrayList<>();
 
-                if(documentsSet.lastIndexOf(s) == -1){
-                    documentsSet.add(s);
+                if(documentsSet.lastIndexOf(document) == -1){  // if the document hasn't been added to the list before
+                    documentsSet.add(document);
                 }
-                dictionary.put(s3, documentsSet);
+                dictionary.put(word, documentsSet);
             }
         }
     }

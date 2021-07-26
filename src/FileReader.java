@@ -11,7 +11,7 @@ public class FileReader {
         return documentsContent;
     }
 
-    private void readContent() throws Exception {
+    private void readContent() throws Exception {  //this method transforms each document to a single string and makes words lowercase
 
         //this loop is for reading and saving documents' content
         for (File file : documentsFolder.listFiles()){
