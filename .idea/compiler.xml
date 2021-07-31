@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="InvertedIndex3" target="14" />
+      <module name="InvertedIndex3" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
