@@ -19,24 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15f62086-894f-45cd-88d8-b8b5931bad20" name="Default Changelist" comment="added maven to project">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="15f62086-894f-45cd-88d8-b8b5931bad20" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InvertedIndex3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/InvertedIndex3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InvertedIndex3/FileReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InvertedIndex3/Initiallizer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InvertedIndex3/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InvertedIndex3/PreProcess.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InvertedIndex3/SearchEngine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InvertedIndex3/SearchProcess.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/java/FileReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Initiallizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/java/Initiallizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PreProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/java/PreProcess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SearchEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/java/SearchEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SearchProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/java/SearchProcess.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +56,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -176,7 +160,21 @@
       <option name="project" value="LOCAL" />
       <updated>1627761237767</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added maven to project">
+      <created>1627761504361</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1627761504361</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added junit dependency">
+      <created>1627761708479</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1627761708479</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,13 +200,14 @@
     <MESSAGE value="fixed a bug in exclude, or queries and changed some formats" />
     <MESSAGE value="added resources" />
     <MESSAGE value="added maven to project" />
-    <option name="LAST_COMMIT_MESSAGE" value="added maven to project" />
+    <MESSAGE value="added junit dependency" />
+    <option name="LAST_COMMIT_MESSAGE" value="added junit dependency" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="249" y="0" key="#Project_Structure" timestamp="1627761413232">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1627762225671">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1627761413232" />
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1627762225671" />
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1627761214617">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -225,26 +224,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="551" y="277" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1627761361430" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1627761257080">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1627761706894">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1627761257080" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1627761422611">
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1627761706894" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1627761477998">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1627761422611" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1627761422610">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1627761477998" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1627761477998">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1627761422610" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1627761422610">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1627761477998" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1627761477998">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1627761422610" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1627761422610">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1627761477998" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1627761477998">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1627761422610" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1627761477998" />
     <state x="147" y="64" key="MergeDialog" timestamp="1627126031841">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -257,10 +256,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1627761471063" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1627761241351">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1627761713383">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1627761241351" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1627761713383" />
     <state x="584" y="190" key="chooseDestDirectoryDialog" timestamp="1627761301180">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
