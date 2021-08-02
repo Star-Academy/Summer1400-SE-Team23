@@ -20,7 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15f62086-894f-45cd-88d8-b8b5931bad20" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/main/java/InitiallizerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/main/java/InitiallizerTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +64,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PreProcessTestsOriginal">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.Main" />
       <module name="InvertedIndex3" />
@@ -69,6 +72,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InitiallizerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InvertedIndex3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.java" />
+      <option name="MAIN_CLASS_NAME" value="main.java.InitiallizerTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InitiallizerTests.check" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InvertedIndex3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.java" />
+      <option name="MAIN_CLASS_NAME" value="main.java.InitiallizerTests" />
+      <option name="METHOD_NAME" value="check" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PreProcessTestsOriginal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InvertedIndex3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.java" />
+      <option name="MAIN_CLASS_NAME" value="main.java.PreProcessTestsOriginal" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PreProcessTestsOriginal.CheckOrQueries" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InvertedIndex3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.java" />
+      <option name="MAIN_CLASS_NAME" value="main.java.PreProcessTestsOriginal" />
+      <option name="METHOD_NAME" value="CheckOrQueries" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PreProcessTestsOriginal" />
+        <item itemvalue="JUnit.PreProcessTestsOriginal.CheckOrQueries" />
+        <item itemvalue="JUnit.InitiallizerTests" />
+        <item itemvalue="JUnit.InitiallizerTests.check" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -82,6 +155,7 @@
       <updated>1627125141785</updated>
       <workItem from="1627125146466" duration="58000" />
       <workItem from="1627299496787" duration="6055000" />
+      <workItem from="1627813033389" duration="17660000" />
     </task>
     <task id="LOCAL-00001" summary="minor change">
       <created>1627125858216</created>
@@ -228,22 +302,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1627761706894" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1627761477998">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1627910184701">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1627761477998" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1627761477998">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1627910184701" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1627910184700">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1627761477998" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1627761477998">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1627910184700" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1627910184700">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1627761477998" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1627761477998">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1627910184700" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1627910184701">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1627761477998" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1627910184701" />
+    <state x="349" y="155" key="IDE.errors.dialog" timestamp="1627813707033">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="349" y="155" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1627813707033" />
     <state x="147" y="64" key="MergeDialog" timestamp="1627126031841">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -252,10 +330,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="407" y="173" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1627126037179" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1627761471063">
+    <state x="249" y="0" key="SettingsEditor" timestamp="1627896781815">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1627761471063" />
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1627896781815" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1627761713383">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -268,5 +346,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="444" y="200" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1627125993404" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1627909348425">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1627909348425" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1627891883332">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1627891883332" />
   </component>
 </project>
