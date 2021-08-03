@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 
-public class PreProcessTestsOriginal {
+public class PreProcessTests {
 
 
     @Test
