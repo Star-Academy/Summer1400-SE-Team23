@@ -37,7 +37,7 @@ public class SearchEngine {
             for (String document : result)
                 System.out.print(document + " ");
             result.clear();
-            System.out.println("");
+            System.out.print("\n");
         }
     }
 }

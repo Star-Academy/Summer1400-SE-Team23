@@ -20,7 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15f62086-894f-45cd-88d8-b8b5931bad20" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_inline_3_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InvertedIndex3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/InvertedIndex3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/java/SearchEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/java/SearchEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/main/java/FileReaderTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/main/java/FileReaderTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/main/java/SearchEngineTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/main/java/SearchEngineTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,12 +72,13 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.capture" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SearchEngineTests">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.Main" />
       <module name="InvertedIndex3" />
@@ -69,6 +86,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchEngineTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InvertedIndex3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.java" />
+      <option name="MAIN_CLASS_NAME" value="main.java.SearchEngineTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchEngineTests.searchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InvertedIndex3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.java" />
+      <option name="MAIN_CLASS_NAME" value="main.java.SearchEngineTests" />
+      <option name="METHOD_NAME" value="searchTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchEngineTests.searchTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InvertedIndex3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.java" />
+      <option name="MAIN_CLASS_NAME" value="main.java.SearchEngineTests" />
+      <option name="METHOD_NAME" value="searchTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.SearchEngineTests" />
+      <item itemvalue="JUnit.SearchEngineTests.searchTest" />
+      <item itemvalue="JUnit.SearchEngineTests.searchTest2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SearchEngineTests" />
+        <item itemvalue="JUnit.SearchEngineTests.searchTest2" />
+        <item itemvalue="JUnit.SearchEngineTests.searchTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -174,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627761708479</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added empty test classes">
+      <created>1627762369633</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1627762369633</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,17 +285,22 @@
     <MESSAGE value="added resources" />
     <MESSAGE value="added maven to project" />
     <MESSAGE value="added junit dependency" />
-    <option name="LAST_COMMIT_MESSAGE" value="added junit dependency" />
+    <MESSAGE value="added empty test classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="added empty test classes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="249" y="0" key="#Project_Structure" timestamp="1627762225671">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1627817135817">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1627762225671" />
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1627817135817" />
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1627761214617">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1627761214617" />
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1627905675388">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1627905675388" />
     <state x="498" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1627761212976">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -224,26 +313,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="551" y="277" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1627761361430" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1627761706894">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1627762367870">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1627761706894" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1627761477998">
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1627762367870" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1627904719007">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1627761477998" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1627761477998">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1627904719007" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1627904719006">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1627761477998" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1627761477998">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1627904719006" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1627904719005">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1627761477998" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1627761477998">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1627904719005" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1627904719006">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1627761477998" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1627904719006" />
     <state x="147" y="64" key="MergeDialog" timestamp="1627126031841">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -252,18 +341,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="407" y="173" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1627126037179" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1627761471063">
+    <state x="249" y="0" key="SettingsEditor" timestamp="1627891367977">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1627761471063" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1627761713383">
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1627891367977" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1627762372500">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1627761713383" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1627762372500" />
     <state x="584" y="190" key="chooseDestDirectoryDialog" timestamp="1627761301180">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="584" y="190" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1627761301180" />
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1627811881267">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1627811881267" />
     <state x="444" y="200" key="git4idea.merge.GitPullDialog" timestamp="1627125993404">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
