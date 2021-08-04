@@ -10,13 +10,22 @@ public class SearchProcess {
         for(String word : orQueries){
             if(!dictionary.containsKey(word.substring(1)))
                 continue;
-            result.addAll(dictionary.get(word.substring(1)));
+            //result.addAll(dictionary.get(word.substring(1)));
+            for(String doc : dictionary.get(word.substring(1))){
+                if(!result.contains(doc)){
+                    result.add(doc);
+                }
+            }
         }
 
         if(result.isEmpty()){
             for(String word : andQueries){
                 if(dictionary.containsKey(word)){
-                    result.addAll(dictionary.get(word));
+                    for(String doc : dictionary.get(word.substring(1))){
+                        if(!result.contains(doc)){
+                            result.add(doc);
+                        }
+                    }
                     break;
                 }
             }
