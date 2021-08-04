@@ -1,13 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="15f62086-894f-45cd-88d8-b8b5931bad20" name="Default Changelist" comment="" />
+    <list default="true" id="15f62086-894f-45cd-88d8-b8b5931bad20" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/java/SearchProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/java/SearchProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/main/java/SearchProcessTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/main/java/SearchProcessTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/SearchProcess.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/SearchProcess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/main/java/FileReaderTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/main/java/FileReaderTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/main/java/PreProcessTestsOriginal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/main/java/SearchProcessTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/main/java/SearchProcessTests.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1vl86kAmGjnQwLW415zK5GeqdP5" />
@@ -22,78 +60,130 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager">
-    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="JUnit.SearchProcessTests">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.Main" />
       <module name="InvertedIndex3" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
+    <configuration name="FileReaderTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="InvertedIndex3" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.java" />
+      <option name="MAIN_CLASS_NAME" value="main.java.FileReaderTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+    <configuration name="SearchEngineTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="InvertedIndex3" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.java" />
+      <option name="MAIN_CLASS_NAME" value="main.java.SearchEngineTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchEngineTests.searchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InvertedIndex3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.java" />
+      <option name="MAIN_CLASS_NAME" value="main.java.SearchEngineTests" />
+      <option name="METHOD_NAME" value="searchTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchEngineTests.searchTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InvertedIndex3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.java" />
+      <option name="MAIN_CLASS_NAME" value="main.java.SearchEngineTests" />
+      <option name="METHOD_NAME" value="searchTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchProcessTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InvertedIndex3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.java" />
+      <option name="MAIN_CLASS_NAME" value="main.java.SearchProcessTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.SearchEngineTests" />
+      <item itemvalue="JUnit.SearchEngineTests.searchTest" />
+      <item itemvalue="JUnit.SearchEngineTests.searchTest2" />
+      <item itemvalue="JUnit.FileReaderTests" />
+      <item itemvalue="JUnit.SearchProcessTests" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SearchProcessTests" />
+        <item itemvalue="JUnit.FileReaderTests" />
+        <item itemvalue="JUnit.SearchEngineTests" />
+        <item itemvalue="JUnit.SearchEngineTests.searchTest2" />
+        <item itemvalue="JUnit.SearchEngineTests.searchTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="dfcccae5-e3bf-4e52-bc50-4eb427f9cef5" name="Default Changelist" comment="" />
+      <changelist id="15f62086-894f-45cd-88d8-b8b5931bad20" name="Default Changelist" comment="" />
       <created>1627125141785</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1627125141785</updated>
       <workItem from="1627125146466" duration="58000" />
+      <workItem from="1627299496787" duration="6055000" />
+      <workItem from="1628056529564" duration="4785000" />
     </task>
     <task id="LOCAL-00001" summary="minor change">
       <created>1627125858216</created>
@@ -165,11 +255,65 @@
       <option name="project" value="LOCAL" />
       <updated>1627195368100</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added maven to project">
+      <created>1627761237767</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1627761237767</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added maven to project">
+      <created>1627761504361</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1627761504361</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added junit dependency">
+      <created>1627761708479</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1627761708479</updated>
+    </task>
+    <task id="LOCAL-00014" summary="added empty test classes">
+      <created>1627762369633</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1627762369633</updated>
+    </task>
+    <task id="LOCAL-00015" summary="added SearchEngine tests">
+      <created>1627978597758</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1627978597758</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added SearchEngine tests">
+      <created>1627978738874</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1627978738874</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="minor change" />
@@ -178,56 +322,84 @@
     <MESSAGE value="fixed a bug in exclude, or queries" />
     <MESSAGE value="fixed a bug in exclude, or queries and changed some formats" />
     <MESSAGE value="added resources" />
-    <option name="LAST_COMMIT_MESSAGE" value="added resources" />
+    <MESSAGE value="added maven to project" />
+    <MESSAGE value="added junit dependency" />
+    <MESSAGE value="added empty test classes" />
+    <MESSAGE value="added SearchEngine tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="added SearchEngine tests" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1627125203161">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1627817135817">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1627125203161" />
-    <state x="498" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1627125201636">
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1627817135817" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1627761214617">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="498" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1627125201636" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1627195365728">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1627761214617" />
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1627979807387">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1627195365728" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1627195398560">
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1627979807387" />
+    <state x="498" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1627761212976">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1627195398560" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1627195398560">
+    <state x="498" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1627761212976" />
+    <state x="399" y="101" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1627760844310">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1627195398560" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1627195398560">
+    <state x="399" y="101" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1627760844310" />
+    <state x="551" y="277" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1627761361430">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1627195398560" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1627195398560">
+    <state x="551" y="277" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1627761361430" />
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1627978737467">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1627195398560" />
-    <state x="147" y="64" key="MergeDialog" timestamp="1627126031841">
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1627978737467" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1628061419702">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="147" y="64" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1627126031841" />
-    <state x="407" y="173" key="MultipleFileMergeDialog" timestamp="1627126037179">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1628061419702" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1628061419702">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="407" y="173" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1627126037179" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1627125434769">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1628061419702" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1628061419702">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1627125434769" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1627195375403">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1628061419702" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1628061419702">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1627195375403" />
-    <state x="444" y="200" key="git4idea.merge.GitPullDialog" timestamp="1627125993404">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1628061419702" />
+    <state x="147" y="64" key="MergeDialog" timestamp="1627978815460">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="444" y="200" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1627125993404" />
+    <state x="147" y="64" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1627978815460" />
+    <state x="407" y="173" key="MultipleFileMergeDialog" timestamp="1627978818961">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="407" y="173" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1627978818961" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1628057017681">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1628057017681" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1627762372500">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1627762372500" />
+    <state x="584" y="190" key="chooseDestDirectoryDialog" timestamp="1627761301180">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="584" y="190" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1627761301180" />
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1627811881267">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1627811881267" />
+    <state x="444" y="200" key="git4idea.merge.GitPullDialog" timestamp="1627978745281">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="444" y="200" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1627978745281" />
   </component>
 </project>

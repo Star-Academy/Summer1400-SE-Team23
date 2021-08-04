@@ -1,3 +1,5 @@
+package main.java;
+
 import java.io.File;
 import java.util.HashMap;
 import java.util.Scanner;
@@ -11,7 +13,7 @@ public class FileReader {
         return documentsContent;
     }
 
-    private void readContent() throws Exception {
+    private void readContent() throws Exception {  //this method transforms each document to a single string and makes words lowercase
 
         //this loop is for reading and saving documents' content
         for (File file : documentsFolder.listFiles()){
@@ -28,9 +30,5 @@ public class FileReader {
             //mapping each document's content to its name
             documentsContent.put(fileName, content.toString().toLowerCase());
         }
-
-
-
-
     }
 }
