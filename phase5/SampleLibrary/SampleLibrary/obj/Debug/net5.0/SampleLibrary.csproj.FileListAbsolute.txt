@@ -1,0 +1,12 @@
+C:\Users\ASUS\codestar-summer-2021\phase5\SampleLibrary\SampleLibrary\bin\Debug\net5.0\SampleLibrary.deps.json
+C:\Users\ASUS\codestar-summer-2021\phase5\SampleLibrary\SampleLibrary\bin\Debug\net5.0\SampleLibrary.dll
+C:\Users\ASUS\codestar-summer-2021\phase5\SampleLibrary\SampleLibrary\bin\Debug\net5.0\ref\SampleLibrary.dll
+C:\Users\ASUS\codestar-summer-2021\phase5\SampleLibrary\SampleLibrary\bin\Debug\net5.0\SampleLibrary.pdb
+C:\Users\ASUS\codestar-summer-2021\phase5\SampleLibrary\SampleLibrary\obj\Debug\net5.0\SampleLibrary.csproj.AssemblyReference.cache
+C:\Users\ASUS\codestar-summer-2021\phase5\SampleLibrary\SampleLibrary\obj\Debug\net5.0\SampleLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\codestar-summer-2021\phase5\SampleLibrary\SampleLibrary\obj\Debug\net5.0\SampleLibrary.AssemblyInfoInputs.cache
+C:\Users\ASUS\codestar-summer-2021\phase5\SampleLibrary\SampleLibrary\obj\Debug\net5.0\SampleLibrary.AssemblyInfo.cs
+C:\Users\ASUS\codestar-summer-2021\phase5\SampleLibrary\SampleLibrary\obj\Debug\net5.0\SampleLibrary.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\codestar-summer-2021\phase5\SampleLibrary\SampleLibrary\obj\Debug\net5.0\SampleLibrary.dll
+C:\Users\ASUS\codestar-summer-2021\phase5\SampleLibrary\SampleLibrary\obj\Debug\net5.0\ref\SampleLibrary.dll
+C:\Users\ASUS\codestar-summer-2021\phase5\SampleLibrary\SampleLibrary\obj\Debug\net5.0\SampleLibrary.pdb
